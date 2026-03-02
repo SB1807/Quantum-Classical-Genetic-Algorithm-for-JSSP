@@ -1,4 +1,4 @@
-# Enatngled Genetic Quantum Alrgotithm (EQGA) for JSSP
+# Entangled Genetic Quantum Alrgotithm (EQGA) for JSSP
 
 A Hybrid Quantum-Classical Optimization Engine for solving NP-Hard Job Shop Scheduling  Problems.
 
