@@ -30,7 +30,7 @@ This project uses a **shot-based execution** on a custom **Noisy Backend** provi
 
 To run this project, you need python 3.8+ and the following libraries:
 
-```bash pip install numpy, matplotlib, qiksit, qiskit-aer```
+``` pip install numpy, matplotlib, qiksit, qiskit-aer```
 
 # Usage 
 
