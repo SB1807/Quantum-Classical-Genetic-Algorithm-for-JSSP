@@ -12,7 +12,7 @@ This project uses a **shot-based execution** on a custom **Noisy Backend** provi
 ## Key features 
 
 * Succesfully maps and simulates a 5-Job, 4-Machine JSSP instance requiring a **20-qubit** circuit
-* Utilizes a **CNOT AStaircase** to create a multi-qubit entanglement, physically linking the decision probabilities od dependent operations.
+* Utilizes a **CNOT Staircase** to create a multi-qubit entanglement, physically linking the decision probabilities od dependent operations.
 * **Algorithmic Error Correction**: Implements a quantum mutation operator using stohstic **Pauli-X** bit flips to prevent premature convergence to local optima.
 *  Simulates decoherence using `qiskit-aer`'s Depolarizing Error Channel. Features physically accurate asymmetric error rates (1% for single-qubit gates, 5% for two-qubit CNOT gates).
 * Uses $R_y$ rotation gaets to incrementlly shoft probability amplitudes toward the global best solution over generations.
@@ -42,11 +42,11 @@ The project is optimized for Jupyter Notebooks. It is divided into modullar cell
 
 
 
-## Future Work and Quantum Advantage
+## Future Work (for now)
 
 Finding a optimized solution for reducing the gate cost and number of Qubits 
 
-Because this algorithm utilizes a parameterized Variational Quantum Circuit (VQC) and survives under simulated decoherence, it is inherently NISQ-ready. Future iterations on physical QPUs (Quantum Processing Units) with hundreds of qubits could scale this approach to solve industrial JSSP instances that are completely intractable for classical brute-force solver
+
 
 
 
