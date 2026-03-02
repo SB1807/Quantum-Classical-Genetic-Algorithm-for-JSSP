@@ -28,7 +28,7 @@ This project uses a **shot-based execution** on a custom **Noisy Backend** provi
 
 ## Instalation and Setup
 
-To run this project, you need python 3.8+ and the following libraries:
+To run this project, you need python 3.10+ and the following libraries:
 
 ``` pip install numpy, matplotlib, qiksit, qiskit-aer```
 
